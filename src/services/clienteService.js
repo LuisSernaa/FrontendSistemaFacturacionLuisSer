@@ -1,7 +1,7 @@
 // clienteService.js
 import axios from 'axios';
 
-const API_URL = 'https://worthy-transformation-production-b4f7.up.railway.app/api/clientes';
+const API_URL = 'https://stunning-rebirth-production.up.railway.app/api/clientes';
 
 export const obtenerClientes = async () => {
     return await axios.get(API_URL);
